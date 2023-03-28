@@ -10,7 +10,7 @@ public class KullaniciGirisi {
         System.out.print("Parolayı giriniz :");
         password=input.nextLine();
 
-        if(userName.equals("icanozcan96") && password.equals("caiboz96"))
+        if(userName.equals("kullanici1") && password.equals("1234"))
         {
             System.out.println("Basari ile giris yaptiniz.");
         }
@@ -22,7 +22,7 @@ public class KullaniciGirisi {
             {
                  System.out.print("Yeni sifrenizi giriniz :");
                  newPass = input.nextLine();
-                if (newPass.equals("caiboz96"))
+                if (newPass.equals("1234"))
                 {
                     System.out.println("Sifre olusturulamadi, lütfen baska sifre giriniz.");
                 }
